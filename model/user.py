@@ -3,11 +3,13 @@ class userEntity:
         self.id = id
         self.name = name
         self.password = password
+        
     def getName(self):
         return self.name
     
     def getPassword(self):
         return self.password
+
     def setName(self,name):
         self.name = name
 
